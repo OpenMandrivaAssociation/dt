@@ -11,6 +11,7 @@ License:	GPL
 Group:		System/Kernel and hardware
 Source0:	intel-%{name}.tar.bz2
 Patch0:		makefile.patch.bz2
+BuildRequires: ed
 
 %description
 'dt' is a generic data test program used to verify proper operation of
