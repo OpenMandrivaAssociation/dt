@@ -9,6 +9,7 @@ Summary:	Hardware performances test
 URL:		http://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/dt.html
 License:	GPL
 Group:		System/Kernel and hardware
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source0:	intel-%{name}.tar.bz2
 Patch0:		makefile.patch.bz2
 BuildRequires: ed
