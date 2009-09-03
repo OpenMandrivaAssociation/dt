@@ -1,6 +1,6 @@
 %define name    dt
 %define version 15.14
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name:           %{name}
 Version:        %{version}
