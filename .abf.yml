@@ -1,2 +1,3 @@
 sources:
-  "intel-dt.tar.bz2:"	741c365043f5dffae1b02834b25182dcb1e118f3
+  "intel-dt.tar.bz2": 741c365043f5dffae1b02834b25182dcb1e118f3
+  "makefile.patch.bz2": e8c422079b8bd811ce9aff41e5e9531474ed0dba

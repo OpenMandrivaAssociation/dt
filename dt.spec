@@ -56,3 +56,32 @@ cp -r html $RPM_BUILD_ROOT%_defaultdocdir/%name-%version
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 15.14-6mdv2011.0
++ Revision: 617904
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 15.14-5mdv2010.0
++ Revision: 428391
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 15.14-4mdv2009.0
++ Revision: 244554
+- rebuild
+- fix no-buildroot-tag
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 15.14-2mdv2008.1
++ Revision: 130054
+- BuildRequires: ed
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Anne Nicolas <ennael@mandriva.org>
+    - rebuild for 2008.0
+    - Import dt
+
+
+
+* Tue May 9 2006 Anne Nicolas <anne.nicolas@mandriva.com> 15.14-1mdk
+- initial release
