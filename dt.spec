@@ -4,7 +4,7 @@
 
 Name:           %{name}
 Version:        %{version}
-Release:        %{release}
+Release:	1
 Summary:	Hardware performances test
 URL:		http://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/dt.html
 License:	GPL
