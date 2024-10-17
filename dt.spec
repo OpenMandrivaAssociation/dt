@@ -6,7 +6,7 @@ Name:           %{name}
 Version:        %{version}
 Release:	1
 Summary:	Hardware performances test
-URL:		http://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/dt.html
+URL:		https://home.comcast.net/~SCSIguy/SCSI_FAQ/RMiller_Tools/dt.html
 License:	GPL
 Group:		System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
